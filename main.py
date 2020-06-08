@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import secrets
 from Adafruit_IO import Client, Data
 
 app = Flask(__name__)
